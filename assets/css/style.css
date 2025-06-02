@@ -103,13 +103,13 @@ header {
 }
 
 .logo {
-  height: 32px; 
-  width: auto; 
+  height: 30px; /* Tamanho reduzido do logo */
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-  height: 32px;
-  width: auto;
+  height: 100%;
 }
 
 /* Navegação */
@@ -293,7 +293,7 @@ section {
 
 .sobre-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 4rem;
   align-items: center;
 }
@@ -305,15 +305,6 @@ section {
 .sobre-content p {
   color: var(--texto-secundario);
   margin-bottom: 1.5rem;
-}
-
-.sobre-image {
-  text-align: center;
-}
-
-.sobre-image img {
-  max-width: 100%;
-  border-radius: 1rem;
 }
 
 .missao-visao {
