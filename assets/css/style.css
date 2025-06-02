@@ -103,13 +103,13 @@ header {
 }
 
 .logo {
-  height: 30px; /* Tamanho reduzido do logo */
+  height: 80px; /* Tamanho reduzido do logo */
   display: flex;
   align-items: center;
 }
 
 .logo img {
-  height: 16px;
+  height: 80px;
   max-height: none; /* sobrescreve caso queira controle fixo */
 }
 
